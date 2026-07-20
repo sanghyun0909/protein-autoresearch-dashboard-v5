@@ -726,6 +726,31 @@
         "train_step_flops": 117754110720.0,
         "iso_flop_ratio": 1.0398
       }
+    },
+    {
+      "id": 21,
+      "parent": null,
+      "operator": "draft",
+      "family": "peer-product-key-experts",
+      "status": "crashed",
+      "kept": false,
+      "metrics": {},
+      "n_params": null,
+      "params_ratio": null,
+      "tokens": null,
+      "steps": null,
+      "runtime_s": 51.65912055969238,
+      "gpu": {
+        "name": "NVIDIA L40S",
+        "smi_index": 1,
+        "uuid": "97a28f52-029f-fd3f-284b-05bdb872dd76",
+        "matched": true
+      },
+      "flops": {
+        "exaflops": 0.6674,
+        "train_step_flops": 113904280320.0,
+        "iso_flop_ratio": 1.0058
+      }
     }
   ],
   "metric_keys": [
@@ -758,5 +783,5 @@
   "lower_is_better": [
     "ec.ce"
   ],
-  "generated_at": "2026-07-20T10:16:34Z"
+  "generated_at": "2026-07-20T10:17:39Z"
 }
