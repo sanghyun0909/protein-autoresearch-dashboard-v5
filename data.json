@@ -1007,6 +1007,31 @@
         "train_step_flops": 117497647872.0,
         "iso_flop_ratio": 1.0375
       }
+    },
+    {
+      "id": 30,
+      "parent": 9,
+      "operator": "improve",
+      "family": "hourglass-diff-n154",
+      "status": "crashed",
+      "kept": false,
+      "metrics": {},
+      "n_params": null,
+      "params_ratio": null,
+      "tokens": null,
+      "steps": null,
+      "runtime_s": 0.0,
+      "gpu": {
+        "name": null,
+        "smi_index": null,
+        "uuid": null,
+        "matched": false
+      },
+      "flops": {
+        "exaflops": null,
+        "train_step_flops": null,
+        "iso_flop_ratio": null
+      }
     }
   ],
   "metric_keys": [
@@ -1039,5 +1064,5 @@
   "lower_is_better": [
     "ec.ce"
   ],
-  "generated_at": "2026-07-20T12:38:40Z"
+  "generated_at": "2026-07-20T12:40:07Z"
 }
