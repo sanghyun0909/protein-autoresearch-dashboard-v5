@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "parent": null,
+      "operator": "draft",
+      "family": "gla",
+      "status": "smoke_failed",
+      "kept": false,
+      "metrics": {},
+      "n_params": null,
+      "params_ratio": null,
+      "tokens": null,
+      "steps": null,
+      "runtime_s": 0.0,
+      "gpu": {
+        "name": null,
+        "smi_index": null,
+        "uuid": null,
+        "matched": false
+      },
+      "flops": {
+        "exaflops": null,
+        "train_step_flops": null,
+        "iso_flop_ratio": null
+      }
+    }
+  ],
+  "metric_keys": [],
+  "primary": "ec.micro_auprc",
+  "anchors": {
+    "ec.micro_auprc": 0.765,
+    "ec.fmax": 0.734,
+    "ec.ce": 0.0065,
+    "go.fmax": 0.56,
+    "go.micro_auprc": 0.565,
+    "repsp.auprc": 0.534,
+    "contact.p_at_l": 0.2198,
+    "contact.attn_p_at_l": 0.2627
+  },
+  "lower_is_better": [
+    "ec.ce"
+  ],
+  "generated_at": "2026-07-20T03:14:03Z"
+}
